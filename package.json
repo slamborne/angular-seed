@@ -1,6 +1,6 @@
 {
   "name": "angular-seed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Application structure based on best practices published by the AngularJS team.",
   "author": {
     "name": "Shane Lamborne",
@@ -14,14 +14,15 @@
   "dependencies": {
   },
   "devDependencies": {
-    "ecstatic": "^0.4.13",
-    "gulp": "^3.5.6"
+    "ecstatic": "^0.4.x",
+    "gulp": "^3.5.x"
   },
   "scripts": {
+    "postinstall": "bower install",
     "test": ""
   },
   "license": "MIT",
   "engines": {
-    "node": ">=0.10.26"
+    "node": ">=0.10.29"
   }
 }

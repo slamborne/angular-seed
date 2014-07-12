@@ -1,10 +1,10 @@
 {
   "name": "angular-seed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "dependencies": {
-    "angular": "~1.2.16",
-    "angular-route": "~1.2.16"
+    "angular": "1.2.x",
+    "angular-route": "1.2.x"
   },
   "devDependencies": {
   }
