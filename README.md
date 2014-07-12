@@ -9,9 +9,9 @@ There is a `_template` directory to help get you started.
 
 ##Dependencies
 
-- [node >= v.0.10.26](http://nodejs.org/download)
-- [bower](http://bower.io)
-- [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#getting-started)
+- [node >= v.0.10.29](http://nodejs.org/download)
+- [bower](http://bower.io) `npm install bower -g`
+- [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#getting-started) `npm install gulp -g`
  
 ##Setup
 
@@ -19,9 +19,7 @@ There is a `_template` directory to help get you started.
 npm install
 ```
 
-```
-bower install
-```
+bower will be run in the `postinstall` `package.json` block
 
 ## Run with gulp
 
