@@ -8,7 +8,5 @@ angular.module('template', ['ngRoute', 'template.controller', 'template.directiv
     });
   }).
   run(function($rootScope) {
-
     console.log('template::run()');
-
   });

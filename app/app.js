@@ -13,12 +13,12 @@ angular.module('app', ['ngRoute']).
     }
   }).
   config(function($routeProvider, $locationProvider) {
-
     $routeProvider.when('', '/').otherwise({redirectTo: '/'});
-
+    $routeProvider.when('/', {
+      controller: 'AppController',
+      templateUrl: './app-controller.html'
+    });
   }).
   run(function($rootScope, settings) {
-
     console.log('app::run()');
-
   });
