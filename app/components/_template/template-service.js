@@ -1,5 +1,4 @@
-'use strict';
-
 angular.module('template.service', []).
-  service('TemplateService', function TemplateService($rootScope) {   
+  service('TemplateService', function TemplateService($rootScope) {
+    'use strict';
   });
