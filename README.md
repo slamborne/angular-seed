@@ -12,7 +12,7 @@ There is a `_template` directory to help get you started.
 - [node >= v.0.10.29](http://nodejs.org/download)
 - [bower](http://bower.io) `npm install bower -g`
 - [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#getting-started) `npm install gulp -g`
- 
+
 ##Setup
 
 ```
