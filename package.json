@@ -18,7 +18,7 @@
     "gulp": "^3.5.x"
   },
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall": "",
     "test": ""
   },
   "license": "MIT",
