@@ -11,9 +11,9 @@
     "url": "https://github.com/slamborne/angular-seed"
   },
   "private": false,
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "broccoli": "^0.13.1",
     "ecstatic": "^0.4.x",
     "gulp": "^3.5.x"
   },
