@@ -1,4 +1,4 @@
-angular.module('app', ['ngRoute', 'app.controller']).
+angular.module('app', ['ngRoute', 'app.controller', 'tpl-app-controller', 'test']).
   constant('constant', {
     'NAME': 'value'
   }).
@@ -15,7 +15,7 @@ angular.module('app', ['ngRoute', 'app.controller']).
     $routeProvider.when('', '/').otherwise({redirectTo: '/'});
     $routeProvider.when('/', {
       controller: 'AppController',
-      templateUrl: './app-controller.html'
+      templateUrl: 'tpl-app-controller'
     });
   }).
   run(function($rootScope, settings) {
