@@ -1,14 +1,14 @@
 {
-  "name": "angular-seed",
-  "version": "0.0.3",
-  "description": "Application structure based on best practices published by the AngularJS team.",
+  "name": "angular-seed-broccoli",
+  "version": "0.0.4",
+  "description": "Application structure based on best practices published by the AngularJS team. Uses broccoli.",
   "author": {
     "name": "Shane Lamborne",
     "email": "shanelamborne@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/slamborne/angular-seed"
+    "url": "https://github.com/slamborne/angular-seed/tree/broccoli"
   },
   "private": false,
   "dependencies": {},
@@ -19,9 +19,7 @@
     "broccoli-html2js": "0.0.5",
     "broccoli-merge-trees": "^0.2.0",
     "broccoli-sass": "^0.2.2",
-    "broccoli-static-compiler": "^0.2.0",
-    "ecstatic": "^0.4.x",
-    "gulp": "^3.5.x"
+    "broccoli-static-compiler": "^0.2.0"
   },
   "scripts": {
     "postinstall": "bower install",
@@ -29,6 +27,6 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=0.10.29"
+    "node": ">=0.10.31"
   }
 }
