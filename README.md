@@ -5,8 +5,6 @@ Application structure based on [best practices](https://docs.google.com/document
 
 However, there are a few deviations from the above - an `app` folder and a `components.js` helper file that simply references component modules.
 
----
-
 ##Dependencies
 
 - [node >= v.0.10.31](http://nodejs.org/download)
