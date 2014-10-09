@@ -7,7 +7,7 @@ var html2js = require('broccoli-html2js');
 
 var appTree = pickFiles('src', {
   srcDir: '/',
-  files: ['app/**/*.js', 'components/!(_)**/*.js', 'app/**/*.css'],
+  files: ['app/**/*.js', 'components/**/*.js', 'app/**/*.css'],
   destDir: '/src'
 });
 
@@ -37,18 +37,16 @@ var appCSSConcat = concat(appTree, {
 
 //var appCss = compileSass(sourceTrees, 'appkit/app.scss', 'assets/app.css')
 
-var blah = pickFiles('src', {
-  srcDir: '/',
-  files: ['app/**/*.html', 'components/!(_)**/*.html'],
-  destDir: '/src'
-});
-
 var templates = html2js('src', {
   inputFiles: ['app/**/*.html', 'components/!(_)**/*.html'],
   outputFile: '/templates.js',
   replace: function (filepath) {
     return filepath.replace(/.*\/([a-z\-]+)\.html/, 'tpl-$1');
-  }
+  },
+  replaceContent: function(content) {
+    return content.replace(/\n/g,'\\n');
+    //      .replace(/\n/g, '\\n');
+  },
 });
 
 var tree = moveFile('src', {

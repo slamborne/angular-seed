@@ -1,4 +1,4 @@
-angular.module('app', ['ngRoute', 'app.controller', 'tpl-app-controller', 'test']).
+angular.module('app', ['ngRoute', 'app.controller', 'tpl-app-controller', 'components']).
   constant('constant', {
     'NAME': 'value'
   }).
